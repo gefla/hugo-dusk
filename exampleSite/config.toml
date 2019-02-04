@@ -5,6 +5,7 @@ languageCode = "en-US"
 canonifyurls = true
 paginate = 3
 theme = "hugo-dusk"
+enableRobotsTXT = true
 
 googleAnalytics = ""
 disqusShortname = ""
@@ -27,6 +28,12 @@ pygmentsCodeFences = true
   weight = -110
   identifier = "tag"
   url = "/tags/"
+
+[taxonomies]
+  category = "categories"
+  group = "groups"
+  series = "series"
+  tag = "tags"
 
 [author]
   name = ""
